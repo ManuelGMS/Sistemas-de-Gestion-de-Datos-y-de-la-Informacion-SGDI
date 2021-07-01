@@ -1,0 +1,352 @@
+MATCH (A:Usuario {nombre:'pnjaban'}), (B:Usuario {nombre:'TheLeoTerrell'})CREATE (A)-[:RT {fecha:'2020-10-01 09:42:32', text: 'The tweet below by @SenKamalaHarris is a lie.  She is the racist. She locked up more Black men than any other politician. President Trump has done more for black Americans than Obama-Biden . Vote #DonaldTrump  @realDonaldTrump #GodBlessPresidentTrump #GodBlessAmerica'}]-> (B);
+MATCH (A:Usuario {nombre:'RichardGrenell'}), (B:Usuario {nombre:'Alyssafarah'})CREATE (A)-[:RT {fecha:'2020-10-04 19:39:46', text: 'President @realDonaldTrump has NEVER stopped working during this pandemic - and even as he recovers from COVID, he’s still busy working for the American people! 🇺🇸 https://t.co/dIElYN2IaW'}]-> (B);
+MATCH (A:Usuario {nombre:'Alyssafarah'}), (B:Usuario {nombre:'JuddPDeere45'})CREATE (A)-[:RT {fecha:'2020-10-01 11:13:15', text: '⚠️President @realDonaldTrump has signed the Continuing Resolution, funding the government through December 11, 2020.'}]-> (B);
+MATCH (A:Usuario {nombre:'JuddPDeere45'}), (B:Usuario {nombre:'Alyssafarah'})CREATE (A)-[:RT {fecha:'2020-09-29 23:42:50', text: 'For your planning purposes: expect an anonymously sourced @TheAtlantic hit piece on @realDonaldTrump allegedly deriding key constituencies that he.s defended &amp; fought for at every turn from now until Nov 3.'}]-> (B);
+MATCH (A:Usuario {nombre:'Alyssafarah'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-01 16:39:12', text: '.@johnrobertsFox I would refer you to your wife’s reporting from 21 hours ago... accurate reporting I cited in the White House Press Briefing.'}]-> (B);
+MATCH (A:Usuario {nombre:'PressSec'}), (B:Usuario {nombre:'HWFields45'})CREATE (A)-[:RT {fecha:'2020-10-01 17:00:25', text: 'As a Black man serving in the Trump White House, I have seen firsthand this Administration’s unwavering support of communities of color. @realDonaldTrump has not only denounced ALL forms of hatred and bigotry, he has taken ACTION to advance and empower minorities in America.'}]-> (B);
+MATCH (A:Usuario {nombre:'Alyssafarah'}), (B:Usuario {nombre:'HWFields45'})CREATE (A)-[:RT {fecha:'2020-10-01 16:59:06', text: 'As a Black man serving in the Trump White House, I have seen firsthand this Administration’s unwavering support of communities of color. @realDonaldTrump has not only denounced ALL forms of hatred and bigotry, he has taken ACTION to advance and empower minorities in America.'}]-> (B);
+MATCH (A:Usuario {nombre:'WhiteHouse'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-04 03:15:16', text: 'Another nightly update from President @realDonaldTrump’s physician: https://t.co/HuF8QxcWfG'}]-> (B);
+MATCH (A:Usuario {nombre:'JuddPDeere45'}), (B:Usuario {nombre:'WhiteHouse'})CREATE (A)-[:RT {fecha:'2020-10-08 15:10:53', text: 'It.s Made in America Week!
+
+@realDonaldTrump pledged to always put American workers FIRST, and as President, he has delivered! https://t.co/aRo3LMTcEx'}]-> (B);
+MATCH (A:Usuario {nombre:'HWFields45'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-02 05:21:45', text: 'The strength of the entire country is with President @realDonaldTrump and @FLOTUS.
+
+America stands united. 
+
+Our country stands strong. 
+
+Your President will continue to put the People first!'}]-> (B);
+MATCH (A:Usuario {nombre:'HWFields45'}), (B:Usuario {nombre:'WhiteHouse'})CREATE (A)-[:RT {fecha:'2020-10-09 18:21:00', text: 'As we recover from the pandemic, President @realDonaldTrump is making sure that American workers aren.t kept on the sidelines while being replaced by new foreign labor. https://t.co/wUNLpChynD https://t.co/oKkUyBU19l'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'KatrinaPierson'})CREATE (A)-[:RT {fecha:'2020-10-01 14:50:54', text: 'I don’t know about you, but I’m looking forward to @brikeilarcnn’s segment on @JoeBiden ‘s record on race. Here are some notes that I took to make sure that they make it on her list for the TV screen so the surrogate can adequately explain each one. @CNN https://t.co/KvDDdUu6G1'}]-> (B);
+MATCH (A:Usuario {nombre:'KatrinaPierson'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-03 20:24:48', text: 'President @realDonaldTrump.s Platinum Plan is designed to bring opportunity, security, fairness and prosperity to Black communities!
+
+#BlackVoicesforTrump #PlatinumPlan https://t.co/aNmGpdnW7o'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'HWFields45'})CREATE (A)-[:RT {fecha:'2020-10-01 17:44:49', text: 'As a Black man serving in the Trump White House, I have seen firsthand this Administration’s unwavering support of communities of color. @realDonaldTrump has not only denounced ALL forms of hatred and bigotry, he has taken ACTION to advance and empower minorities in America.'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-01 17:45:06', text: '.@johnrobertsFox I would refer you to your wife’s reporting from 21 hours ago... accurate reporting I cited in the White House Press Briefing.'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'AndrewPollackFL'})CREATE (A)-[:RT {fecha:'2020-10-01 19:54:10', text: 'In 2018, @realDonaldTrump hosted a Chanukah party at the White House.
+
+He invited my family and Rabbi as his honorary guests. 
+
+Hey MSM, don.t white supremacists hate Jews? https://t.co/jyd5v7ccpR'}]-> (B);
+MATCH (A:Usuario {nombre:'SaraCarterDC'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-01 16:39:28', text: '.@johnrobertsFox I would refer you to your wife’s reporting from 21 hours ago... accurate reporting I cited in the White House Press Briefing.'}]-> (B);
+MATCH (A:Usuario {nombre:'SaraCarterDC'}), (B:Usuario {nombre:'SebGorka'})CREATE (A)-[:RT {fecha:'2020-10-04 02:58:31', text: 'So much love for President @realDonaldTrump right now outside his building at @WRBethesda. https://t.co/H4thBk6949'}]-> (B);
+MATCH (A:Usuario {nombre:'deneenborelli'}), (B:Usuario {nombre:'mercedesschlapp'})CREATE (A)-[:RT {fecha:'2020-09-29 21:30:07', text: 'Yet the @JoeBiden campaign launched Catholics for Biden?'}]-> (B);
+MATCH (A:Usuario {nombre:'mercedesschlapp'}), (B:Usuario {nombre:'AndrewHClark'})CREATE (A)-[:RT {fecha:'2020-09-30 03:58:13', text: 'Telemundo viewers agree: @realDonaldTrump WON the debate by 32 points! 
+
+TRUMP 66%
+BIDEN 34%'}]-> (B);
+MATCH (A:Usuario {nombre:'AndrewHClark'}), (B:Usuario {nombre:'JasonMillerinDC'})CREATE (A)-[:RT {fecha:'2020-09-29 21:47:47', text: 'Debate Night in Cleveland - Let’s Go ⁦@realDonaldTrump⁩! #MAGA https://t.co/nGk1EWbIAm'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'JackPosobiec'})CREATE (A)-[:RT {fecha:'2020-09-29 21:36:29', text: '@realDonaldTrump Come to Philly on election day'}]-> (B);
+MATCH (A:Usuario {nombre:'JackPosobiec'}), (B:Usuario {nombre:'TrumpStudents'})CREATE (A)-[:RT {fecha:'2020-09-30 19:11:12', text: 'Joe Biden’s train tour receives an unexpected welcome from @realDonaldTrump’s supporters!
+https://t.co/vlWsd5JiwH'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'WhiteHouse'})CREATE (A)-[:RT {fecha:'2020-09-29 22:49:42', text: 'President @realDonaldTrump announced that his Administration will distribute 150 million rapid, point-of-care Coronavirus tests in the coming weeks.
+
+It’s a testament to the strength and skill of our great American scientists and researchers.
+
+1600 Daily: https://t.co/A68ueVC88u https://t.co/5BH4KNa3wq'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'AndrewPollackFL'})CREATE (A)-[:RT {fecha:'2020-10-01 20:45:03', text: 'In 2018, @realDonaldTrump hosted a Chanukah party at the White House.
+
+He invited my family and Rabbi as his honorary guests. 
+
+Hey MSM, don.t white supremacists hate Jews? https://t.co/jyd5v7ccpR'}]-> (B);
+MATCH (A:Usuario {nombre:'PARISDENNARD'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-01 17:04:05', text: '.@johnrobertsFox I would refer you to your wife’s reporting from 21 hours ago... accurate reporting I cited in the White House Press Briefing.'}]-> (B);
+MATCH (A:Usuario {nombre:'AndrewHClark'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-02 02:13:39', text: 'President @realDonaldTrump: "I.ve said it many times and let me be clear again: I condemn the KKK, I condemn all white supremacists, I condemn the Proud Boys" https://t.co/zRRT2QzcNS'}]-> (B);
+MATCH (A:Usuario {nombre:'PARISDENNARD'}), (B:Usuario {nombre:'KatrinaPierson'})CREATE (A)-[:RT {fecha:'2020-10-05 22:11:45', text: 'Hey @brikeilarcnn - any chance we’ll see this segment this week? The people have a right to hear what Joe Biden meant by “racial jungle”. 
+
+I’ll check back with you later. I don’t want to miss it.'}]-> (B);
+MATCH (A:Usuario {nombre:'KatrinaPierson'}), (B:Usuario {nombre:'mercedesschlapp'})CREATE (A)-[:RT {fecha:'2020-10-08 18:07:19', text: 'So happy to be in the Great State of Pennsylvania with two of the strongest women I know!
+
+We are counting on YOU Pennsylvania to help us re-elect @realDonaldTrump! 
+
+Four! More! Years!
+
+@LaraLeaTrump @KatrinaPierson @TrumpWomensTour 
+#WomenForTrump #MAGA https://t.co/XWkCYdkqzL'}]-> (B);
+MATCH (A:Usuario {nombre:'mercedesschlapp'}), (B:Usuario {nombre:'Alyssafarah'})CREATE (A)-[:RT {fecha:'2020-10-03 22:50:51', text: 'Thank you to everyone for their concern &amp; outpouring of support for President @realDonaldTrump. He’s as tough as they come &amp; focusing on recovering. The @WhiteHouse will continue to give regular updates on his progress.'}]-> (B);
+MATCH (A:Usuario {nombre:'edokeefe'}), (B:Usuario {nombre:'margbrennan'})CREATE (A)-[:RT {fecha:'2020-10-02 10:56:14', text: '.@SecPompeo tells reporters traveling with him overseas that he tested negative for #COVID19 &amp; has spoken to the @VP. State is re-evaluating his travel schedule. The SecState is 4th in line to the presidency. Pompeo says he last personally interacted with @realDonaldTrump Sept 15'}]-> (B);
+MATCH (A:Usuario {nombre:'NicoleSganga'}), (B:Usuario {nombre:'edokeefe'})CREATE (A)-[:RT {fecha:'2020-09-30 16:20:17', text: 'ALLIANCE, Ohio — @JoeBiden’s whistle stop train tour is here. He is set to speak and take questions. LIVE coverage soon on CBSN: https://t.co/GVb06rul4F https://t.co/TG0uhkBHJF'}]-> (B);
+MATCH (A:Usuario {nombre:'NicoleSganga'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-02 21:40:52', text: 'An update from President @realDonaldTrump.s physician: https://t.co/cTsXO4Df6b'}]-> (B);
+MATCH (A:Usuario {nombre:'NicoleSganga'}), (B:Usuario {nombre:'jmartNYT'})CREATE (A)-[:RT {fecha:'2020-10-02 21:43:08', text: 'NEWS: @JoeBiden is taking down his negative ads, going all-positive, per source familiar.  
+
+Decision was made *before* WH put out word Trump was going to Walter Reed'}]-> (B);
+MATCH (A:Usuario {nombre:'margbrennan'}), (B:Usuario {nombre:'edokeefe'})CREATE (A)-[:RT {fecha:'2020-10-08 01:22:40', text: 'Important question from @SusanPage to @Mike_Pence about whether he.s talked to @realDonaldTrump about potential presidential disability. And once again he didn.t engage the question.'}]-> (B);
+MATCH (A:Usuario {nombre:'JenniferJJacobs'}), (B:Usuario {nombre:'edokeefe'})CREATE (A)-[:RT {fecha:'2020-10-04 00:50:08', text: 'CONFIRMED: @JoeBiden.s campaign says it will release the results of all of his #COVID19 tests, a change from the past.'}]-> (B);
+MATCH (A:Usuario {nombre:'NicoleSganga'}), (B:Usuario {nombre:'margbrennan'})CREATE (A)-[:RT {fecha:'2020-10-04 04:22:34', text: 'UPDATE: Tomorrow morning National Security Adviser Ambassador @robertcobrien joins me on @FaceTheNation to discuss @realDonaldTrump &amp; COVID19.'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'AndrewHClark'})CREATE (A)-[:RT {fecha:'2020-09-30 03:23:32', text: 'Telemundo viewers agree: @realDonaldTrump WON the debate by 32 points! 
+
+TRUMP 66%
+BIDEN 34%'}]-> (B);
+MATCH (A:Usuario {nombre:'AndrewHClark'}), (B:Usuario {nombre:'Alyssafarah'})CREATE (A)-[:RT {fecha:'2020-10-02 14:53:04', text: 'Just a matter of months ago, the idea of unemployment being below double digits was a pipe dream. Here we are - because @realDonaldTrump’s leadership - with unemployment at 7.9%!'}]-> (B);
+MATCH (A:Usuario {nombre:'AndrewHClark'}), (B:Usuario {nombre:'ErinMPerrine'})CREATE (A)-[:RT {fecha:'2020-10-03 15:36:34', text: 'Hey guys — stop saying Biden pulled down negative ads.
+
+He didn’t. He hasn’t. Not online and not on TV.
+
+He had negative TV ads running TODAY in FL, NH, NV, and NC.'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-09-30 19:11:35', text: 'President @realDonaldTrump: I don.t know who the Proud Boys are but they have to stand down, let law enforcement do their work https://t.co/KF2pwFolAH'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'abigailmarone'})CREATE (A)-[:RT {fecha:'2020-10-03 01:44:09', text: 'Trump supporters gathering outside Walter Reed to wish the President a speedy recovery.
+
+America loves you President @realDonaldTrump! 🇺🇸❤️
+
+ https://t.co/VQXlZCPaeO'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'KatrinaPierson'})CREATE (A)-[:RT {fecha:'2020-10-01 14:53:29', text: 'I don’t know about you, but I’m looking forward to @brikeilarcnn’s segment on @JoeBiden ‘s record on race. Here are some notes that I took to make sure that they make it on her list for the TV screen so the surrogate can adequately explain each one. @CNN https://t.co/KvDDdUu6G1'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'JasonMillerinDC'})CREATE (A)-[:RT {fecha:'2020-10-02 20:47:06', text: 'Amazingly poor form being shown by Joe Biden right now.
+
+Biden opposed @realDonaldTrump’s early, life-saving actions to close U.S. from outside carriers, &amp; Biden’s Democrat Party (remember ‘I am the Party’?) was busy pursuing Impeachment &amp; traveling to Chinatown while @POTUS led.'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'edokeefe'})CREATE (A)-[:RT {fecha:'2020-10-01 19:55:16', text: 'DEBATES UPDATE: Trump campaign senior adviser @JasonMillerinDC says @realDonaldTrump will be at the upcoming debates in Miami and Nashville and @Mike_Pence will be at the Salt Lake City debate next week. But, “There should not be any changes to what’s been agreed to,” he says.'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'NicoleSganga'})CREATE (A)-[:RT {fecha:'2020-10-01 19:56:40', text: 'NEW: Trump campaign senior adviser @JasonMillerinDC
+says @realDonaldTrump will be at the upcoming debates. 
+
+The Trump campaign.s Max Miller tells reporters the Biden campaign has requested "opening and closing statements, cut down on open discussion and a mute button." [1/2]'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'BrookeSingman'})CREATE (A)-[:RT {fecha:'2020-10-03 20:10:14', text: 'EXCLUSIVE: @TeamTrump is keeping at “full speed” as President @realDonaldTrump fights #coronavirus, with a new “Operation MAGA” that includes events featuring @VP Pence @DonaldJTrumpJr @LaraLeaTrump @EricTrump in key states across the country 
+
+https://t.co/104JM7z5X1'}]-> (B);
+MATCH (A:Usuario {nombre:'TeamTrump'}), (B:Usuario {nombre:'SebGorka'})CREATE (A)-[:RT {fecha:'2020-10-04 13:32:34', text: 'So much love for President @realDonaldTrump right now outside his building at @WRBethesda. https://t.co/H4thBk6949'}]-> (B);
+MATCH (A:Usuario {nombre:'SebGorka'}), (B:Usuario {nombre:'SaraCarterDC'})CREATE (A)-[:RT {fecha:'2020-10-02 09:34:41', text: 'If it wasn’t clear to anyone if @realDonaldTrump disavows racists watch this clip below from 2016  👇👇👇👇'}]-> (B);
+MATCH (A:Usuario {nombre:'pnjaban'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-01 16:59:51', text: '.@johnrobertsFox I would refer you to your wife’s reporting from 21 hours ago... accurate reporting I cited in the White House Press Briefing.'}]-> (B);
+MATCH (A:Usuario {nombre:'pnjaban'}), (B:Usuario {nombre:'TrumpStudents'})CREATE (A)-[:RT {fecha:'2020-10-04 00:33:44', text: 'Supporters showing their love for President @realDonaldTrump outside of Walter Reed! https://t.co/f714lHLjwW'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-02 18:40:29', text: 'September’s #JobsReport shows the Great American Comeback is continuing, and President @realDonaldTrump is the man to lead it! https://t.co/R33DblmPrt'}]-> (B);
+MATCH (A:Usuario {nombre:'BorisEP'}), (B:Usuario {nombre:'JasonMillerinDC'})CREATE (A)-[:RT {fecha:'2020-10-01 15:08:02', text: '.@realDonaldTrump scored .historic victory. in first presidential debate, campaign adviser claims | Fox News https://t.co/tRCmgjuXcW'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-03 15:47:59', text: 'Doctor Sean Conley says he is “extremely happy" with the progress the President @realDonaldTrump has made since being diagnosed with coronavirus https://t.co/1qFJ5y7JC2'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'EquipoTrump'})CREATE (A)-[:RT {fecha:'2020-10-03 16:14:22', text: 'El doctor Sean Conley dice que está "extremadamente feliz" con el progreso que ha logrado el presidente @realDonaldTrump desde que fue diagnosticado con el coronavirus.
+https://t.co/H1KlRGTkNh'}]-> (B);
+MATCH (A:Usuario {nombre:'EquipoTrump'}), (B:Usuario {nombre:'ErinMPerrine'})CREATE (A)-[:RT {fecha:'2020-09-30 19:27:54', text: 'Really rich coming from you, Crooked.
+
+https://t.co/vuMbOHtyEt'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'ErinMPerrine'})CREATE (A)-[:RT {fecha:'2020-10-03 16:14:33', text: 'Hey guys — stop saying Biden pulled down negative ads.
+
+He didn’t. He hasn’t. Not online and not on TV.
+
+He had negative TV ads running TODAY in FL, NH, NV, and NC.'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'AndrewHClark'})CREATE (A)-[:RT {fecha:'2020-10-03 15:48:14', text: 'Biden.s campaign said they pulled negative ads.
+
+They have not pulled negative ads.'}]-> (B);
+MATCH (A:Usuario {nombre:'PARISDENNARD'}), (B:Usuario {nombre:'JuddPDeere45'})CREATE (A)-[:RT {fecha:'2020-10-06 01:22:54', text: 'Welcome home, Sir! 
+
+🇺🇸 @realDonaldTrump https://t.co/olYjlx7qMG'}]-> (B);
+MATCH (A:Usuario {nombre:'PARISDENNARD'}), (B:Usuario {nombre:'WhiteHouse'})CREATE (A)-[:RT {fecha:'2020-10-07 02:17:41', text: '"Made in the USA" represents the highest quality and craftsmanship in the world.
+
+Under President @realDonaldTrump, it.s more than a slogan—it.s a promise kept through a proactive, five-part strategy.
+
+NEW report: https://t.co/VZXBm2gbSy'}]-> (B);
+MATCH (A:Usuario {nombre:'mercedesschlapp'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-05 18:51:18', text: 'Tony Rankin was given a second chance at life thanks to President @realDonaldTrump.s pro-growth economic policies! https://t.co/0QiIGcqYCe'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-09-30 05:14:01', text: 'Earlier @JoeBiden said he was the Head of the Party. 
+
+When asked why he didn’t call Democrat Mayors and Governors in Portland and Seattle he said “he is a private citizen”.'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'LLinWood'})CREATE (A)-[:RT {fecha:'2020-09-30 15:10:41', text: 'When I take @JoeBiden deposition on cross-examination, no wire or computer contact lenses will save him.
+
+I will rip Joe into shreds. Ask witnesses who have had the misfortune of sitting across the table from me under oath.
+
+You don’t mess with my children, my pup, or my clients.'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'PARISDENNARD'})CREATE (A)-[:RT {fecha:'2020-09-30 17:35:47', text: 'Give me a break, Senator Harris. 
+Here is your dog whistle and bigoted bullhorn and your running mate @JoeBiden has been screaming from it for 47 years: https://t.co/BY4Tl4nFPC'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'SaraCarterDC'})CREATE (A)-[:RT {fecha:'2020-10-01 17:36:19', text: 'If it wasn’t clear to anyone if @realDonaldTrump disavows racists watch this clip below from 2016  👇👇👇👇'}]-> (B);
+MATCH (A:Usuario {nombre:'BorisEP'}), (B:Usuario {nombre:'SaraCarterDC'})CREATE (A)-[:RT {fecha:'2020-10-01 17:30:06', text: 'Jewish Voices For Trump Co-Chair @BorisEP: .Pres. @realDonaldTrump DID condemn white supremacists.
+
+"...he denounces white supremacists and he did that also in his speech about Charlottesville that the left likes to lie about so much.."
+
+via @JennieSTaer
+
+https://t.co/O22NwogXCV'}]-> (B);
+MATCH (A:Usuario {nombre:'BorisEP'}), (B:Usuario {nombre:'SebGorka'})CREATE (A)-[:RT {fecha:'2020-10-02 15:39:17', text: 'Got your back Boris. 
+
+And @realDonaldTrump’s. https://t.co/hOKuLQIPJI'}]-> (B);
+MATCH (A:Usuario {nombre:'SebGorka'}), (B:Usuario {nombre:'BorisEP'})CREATE (A)-[:RT {fecha:'2020-10-02 15:26:37', text: 'Easy to spout crap like this from behind your phone or computer, little guy.
+
+Bet you wouldn’t say anything like that in front of @SebGorka, me, or any other loyal supporter of @realDonaldTrump.'}]-> (B);
+MATCH (A:Usuario {nombre:'tomborelli'}), (B:Usuario {nombre:'deneenborelli'})CREATE (A)-[:RT {fecha:'2020-09-30 01:35:02', text: '⁦@JoeBiden⁩ responding to ⁦@realDonaldTrump⁩ question on if he will stack the Supreme Court: “Will you shut up man!” #JustWow #Debates2020 https://t.co/FDsSN8R7nG'}]-> (B);
+MATCH (A:Usuario {nombre:'deneenborelli'}), (B:Usuario {nombre:'PARISDENNARD'})CREATE (A)-[:RT {fecha:'2020-10-01 02:00:55', text: 'Hey @JoeBiden let’s not call people racists when you proudly talked about Black men and women like this. Your bigotry in the past and present is not worthy of one Black vote. 
+
+The champion for Black America in this race is President @realDonaldTrump 
+#BlackVoicesforTrump https://t.co/lGOm50Mmsd'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-09-30 01:59:25', text: 'Reminder: @JoeBiden is running TV commercials saying he will mandate masks in January 2021 if elected.'}]-> (B);
+MATCH (A:Usuario {nombre:'SidneyPowell1'}), (B:Usuario {nombre:'SaraCarterDC'})CREATE (A)-[:RT {fecha:'2020-09-30 14:55:42', text: 'FACT CHECK: #Biden says he doesn’t support the #GreenNewDeal. He does.
+
+“Biden believes the Green New Deal is a crucial framework for meeting the climate challenges we face," reads Biden.s campaign site.
+
+https://t.co/Sexx7CSFyI'}]-> (B);
+MATCH (A:Usuario {nombre:'MZHemingway'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-09-30 20:36:56', text: 'This is a complete lie from @CNN 
+
+President @realDonaldTrump has repeatedly denounced white supremacy, including today:
+
+QUESTION: "White supremacists...do you denounce them?"
+
+PRESIDENT TRUMP: "I.ve always denounced any form of any of that."
+
+CNN "dodged" the truth again...'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'MZHemingway'})CREATE (A)-[:RT {fecha:'2020-10-01 15:58:03', text: 'Holy crap. This is crazy to watch. I.ve noticed this for years and have commented on it publicly, but the actual words that Trump or his administration speak and their actions do not seem to have any influence at all on the narrative, the questions, the stories.'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'PARISDENNARD'})CREATE (A)-[:RT {fecha:'2020-10-03 19:25:16', text: 'Yes, let’s re-elect President @realDonaldTrump'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'BrookeSingman'})CREATE (A)-[:RT {fecha:'2020-10-03 20:12:40', text: 'EXCLUSIVE: @TeamTrump is keeping at “full speed” as President @realDonaldTrump fights #coronavirus, with a new “Operation MAGA” that includes events featuring @VP Pence @DonaldJTrumpJr @LaraLeaTrump @EricTrump in key states across the country 
+
+https://t.co/104JM7z5X1'}]-> (B);
+MATCH (A:Usuario {nombre:'ErinMPerrine'}), (B:Usuario {nombre:'TrumpWarRoom'})CREATE (A)-[:RT {fecha:'2020-10-08 15:30:15', text: '@TeamTrump @Mike_Pence @realDonaldTrump Detroit News SLAMS Joe Biden and Kamala Harris for .political. and .dangerous. vaccine rhetoric. 
+
+They don’t seem to care that they are contradicting the scientists and top public health officials.
+https://t.co/AtNdT6aHYh'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'JasonMillerinDC'})CREATE (A)-[:RT {fecha:'2020-09-30 13:08:47', text: '.@realDonaldTrump was a dominant force in last night’s debate. 
+
+He’s exactly who we need to stand up to the bad guys around the world, eradicate COVID and stop the radical left-wing mob terrorizing Democrat-run cities.'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'RSBNetwork'})CREATE (A)-[:RT {fecha:'2020-10-03 19:41:46', text: 'As you know, we follow @realDonaldTrump wherever he goes. It.s what we do.
+
+Starting tonight, we.ll be🔴LIVE from outside Walter Reed- and that.s where we.ll stay until he leaves.
+
+We.ll be talking to all the great patriots that come by to support our President. 🇺🇸
+
+See you soon!'}]-> (B);
+MATCH (A:Usuario {nombre:'RSBNetwork'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-02 09:42:11', text: 'The strength of the entire country is with President @realDonaldTrump and @FLOTUS.
+
+America stands united. 
+
+Our country stands strong. 
+
+Your President will continue to put the People first!'}]-> (B);
+MATCH (A:Usuario {nombre:'pnjaban'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-10-04 01:03:46', text: 'I have been traveling the country raising money and campaigning for @realDonaldTrump - and House candidates now and then, too. 
+
+The House is in play. We can definitely make Kevin McCarthy the Speaker.  @GOPLeader 
+
+Please give what you can to those House candidates on the verge!'}]-> (B);
+MATCH (A:Usuario {nombre:'deneenborelli'}), (B:Usuario {nombre:'tomborelli'})CREATE (A)-[:RT {fecha:'2020-10-01 16:16:06', text: 'Racist @JoeBiden touted an award he got from George Wallace. #BidenIsARacist'}]-> (B);
+MATCH (A:Usuario {nombre:'tomborelli'}), (B:Usuario {nombre:'mercedesschlapp'})CREATE (A)-[:RT {fecha:'2020-09-30 01:36:21', text: '.@JoeBiden wants to shut down the country.  #Debate2020'}]-> (B);
+MATCH (A:Usuario {nombre:'tomborelli'}), (B:Usuario {nombre:'BrookeSingman'})CREATE (A)-[:RT {fecha:'2020-09-30 11:23:56', text: 'NEW: @TeamTrump &amp; @GOPChairwoman declared @realDonaldTrump the winner of #Debates2020,  slamming @JoeBiden as “too weak” and touting Trump as a “strong president on top of his game.” @GOP 
+https://t.co/7aSOee7kZh'}]-> (B);
+MATCH (A:Usuario {nombre:'tomborelli'}), (B:Usuario {nombre:'PARISDENNARD'})CREATE (A)-[:RT {fecha:'2020-09-30 22:43:27', text: 'Hey @JoeBiden let’s not call people racists when you proudly talked about Black men and women like this. Your bigotry in the past and present is not worthy of one Black vote. 
+
+The champion for Black America in this race is President @realDonaldTrump 
+#BlackVoicesforTrump https://t.co/lGOm50Mmsd'}]-> (B);
+MATCH (A:Usuario {nombre:'tomborelli'}), (B:Usuario {nombre:'nedryun'})CREATE (A)-[:RT {fecha:'2020-10-01 01:27:40', text: 'A real moderator would have turned to @JoeBiden and asked, Did you suggest using the Logan Act to target General Flynn? https://t.co/Y0EePbeeQR'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'TheLeoTerrell'})CREATE (A)-[:RT {fecha:'2020-10-01 19:22:52', text: 'Hello friends. I am in Atlanta Georgia. I am speaking at the Faith and Freedom Coalition.  I going to give a tremendous speech for President Trump. @realDonaldTrump @seanhannity @FoxNews'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-04 12:10:40', text: 'Another nightly update from President @realDonaldTrump’s physician: https://t.co/HuF8QxcWfG'}]-> (B);
+MATCH (A:Usuario {nombre:'ragstorm'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-09-30 03:29:09', text: '. @jonkarl fails to notice that @JoeBiden lashed out with personal attacks four times. 
+
+Trump didn’t make personal attacks.'}]-> (B);
+MATCH (A:Usuario {nombre:'ragstorm'}), (B:Usuario {nombre:'TheLeoTerrell'})CREATE (A)-[:RT {fecha:'2020-09-30 04:20:24', text: 'You won the debate tonight Mr. President. Keep fighting. Joe Biden is a fraud and a liar. Don’t listen to those Washington insiders. America supports you Mr. Trump. @realDonaldTrump @seanhannity @FoxNews'}]-> (B);
+MATCH (A:Usuario {nombre:'deneenborelli'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-01 19:27:43', text: 'Vice President @Mike_Pence: When Joe Biden was Vice President America lost 200,000 manufacturing jobs, Under President @realDonaldTrump we added 500,000 manufacturing jobs in just three years! https://t.co/MhNALCKu7n'}]-> (B);
+MATCH (A:Usuario {nombre:'deneenborelli'}), (B:Usuario {nombre:'KatrinaPierson'})CREATE (A)-[:RT {fecha:'2020-10-01 21:22:52', text: 'I don’t know about you, but I’m looking forward to @brikeilarcnn’s segment on @JoeBiden ‘s record on race. Here are some notes that I took to make sure that they make it on her list for the TV screen so the surrogate can adequately explain each one. @CNN https://t.co/KvDDdUu6G1'}]-> (B);
+MATCH (A:Usuario {nombre:'deneenborelli'}), (B:Usuario {nombre:'ErinMPerrine'})CREATE (A)-[:RT {fecha:'2020-10-03 16:39:14', text: 'Hey guys — stop saying Biden pulled down negative ads.
+
+He didn’t. He hasn’t. Not online and not on TV.
+
+He had negative TV ads running TODAY in FL, NH, NV, and NC.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-02 19:25:17', text: 'The strength of the entire country is with President @realDonaldTrump and @FLOTUS.
+
+America stands united. 
+
+Our country stands strong. 
+
+Your President will continue to put the People first!'}]-> (B);
+MATCH (A:Usuario {nombre:'EquipoTrump'}), (B:Usuario {nombre:'mercedesschlapp'})CREATE (A)-[:RT {fecha:'2020-10-01 16:11:44', text: 'Honored to have joined @IvankaTrump in Orlando, FL where she discussed @realDonaldTrump record of success for the American people #AmericaFirst'}]-> (B);
+MATCH (A:Usuario {nombre:'EquipoTrump'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-02 18:46:38', text: 'September’s #JobsReport shows the Great American Comeback is continuing, and President @realDonaldTrump is the man to lead it! https://t.co/R33DblmPrt'}]-> (B);
+MATCH (A:Usuario {nombre:'AndrewHClark'}), (B:Usuario {nombre:'JuddPDeere45'})CREATE (A)-[:RT {fecha:'2020-10-08 19:25:57', text: 'President @realDonaldTrump has declared that an emergency exists in the State of Mississippi and ordered Federal assistance to supplement State, tribal, and local response efforts due to the emergency conditions resulting from #HurricaneDelta.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-09-30 19:10:47', text: 'President @realDonaldTrump: 100,000 ballots went out to New York with the wrong names and wrong addresses on them https://t.co/XgP9Cxl8XX'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'HWFields45'})CREATE (A)-[:RT {fecha:'2020-10-01 17:31:08', text: 'As a Black man serving in the Trump White House, I have seen firsthand this Administration’s unwavering support of communities of color. @realDonaldTrump has not only denounced ALL forms of hatred and bigotry, he has taken ACTION to advance and empower minorities in America.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'KatrinaPierson'})CREATE (A)-[:RT {fecha:'2020-10-02 01:34:02', text: 'The real reason the media has recycled the “white supremacy” smear against ⁦@realDonaldTrump⁩ is because ⁦@JoeBiden⁩ and the Democrats are losing black voters. 
+
+Trump continues to make gains forcing Joe Biden to campaign for the black vote. 
+ https://t.co/jUJsPKBFg4'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'PARISDENNARD'})CREATE (A)-[:RT {fecha:'2020-10-02 02:43:37', text: 'I.m appalled the media continues to give @JoeBiden cover. THIS MAN IS A BIGOT who won’t call out ANTIFA! The Biden record is long, you can look at his rhetoric &amp; his record &amp; yet they give him a pass. 
+Pres @realDonaldTrump has condemned hate groups &amp; pb
+https://t.co/PBPeDY22XT?'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'Alyssafarah'})CREATE (A)-[:RT {fecha:'2020-10-02 14:51:07', text: 'Just a matter of months ago, the idea of unemployment being below double digits was a pipe dream. Here we are - because @realDonaldTrump’s leadership - with unemployment at 7.9%!'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'AndrewHClark'})CREATE (A)-[:RT {fecha:'2020-10-03 16:00:24', text: 'Biden.s campaign said they pulled negative ads.
+
+They have not pulled negative ads.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'ErinMPerrine'})CREATE (A)-[:RT {fecha:'2020-10-03 16:00:29', text: 'Hey guys — stop saying Biden pulled down negative ads.
+
+He didn’t. He hasn’t. Not online and not on TV.
+
+He had negative TV ads running TODAY in FL, NH, NV, and NC.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-04 03:30:53', text: 'Another nightly update from President @realDonaldTrump’s physician: https://t.co/HuF8QxcWfG'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'abigailmarone'})CREATE (A)-[:RT {fecha:'2020-10-06 03:04:54', text: '@JoeBiden Aaaand the week before that'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'SteveGuest'})CREATE (A)-[:RT {fecha:'2020-10-01 14:42:28', text: 'BEASTMODE: @realDonaldTrump helped Joe Biden count to 2 during the first debate. https://t.co/WmjlNKa2R5'}]-> (B);
+MATCH (A:Usuario {nombre:'SteveGuest'}), (B:Usuario {nombre:'HWFields45'})CREATE (A)-[:RT {fecha:'2020-10-01 19:55:58', text: 'As a Black man serving in the Trump White House, I have seen firsthand this Administration’s unwavering support of communities of color. @realDonaldTrump has not only denounced ALL forms of hatred and bigotry, he has taken ACTION to advance and empower minorities in America.'}]-> (B);
+MATCH (A:Usuario {nombre:'SteveGuest'}), (B:Usuario {nombre:'PARISDENNARD'})CREATE (A)-[:RT {fecha:'2020-10-02 01:08:41', text: 'I.m appalled the media continues to give @JoeBiden cover. THIS MAN IS A BIGOT who won’t call out ANTIFA! The Biden record is long, you can look at his rhetoric &amp; his record &amp; yet they give him a pass. 
+Pres @realDonaldTrump has condemned hate groups &amp; pb
+https://t.co/PBPeDY22XT?'}]-> (B);
+MATCH (A:Usuario {nombre:'SteveGuest'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-02 02:09:40', text: 'President @realDonaldTrump: "I.ve said it many times and let me be clear again: I condemn the KKK, I condemn all white supremacists, I condemn the Proud Boys" https://t.co/zRRT2QzcNS'}]-> (B);
+MATCH (A:Usuario {nombre:'SteveGuest'}), (B:Usuario {nombre:'JasonMillerinDC'})CREATE (A)-[:RT {fecha:'2020-10-02 20:47:44', text: 'Amazingly poor form being shown by Joe Biden right now.
+
+Biden opposed @realDonaldTrump’s early, life-saving actions to close U.S. from outside carriers, &amp; Biden’s Democrat Party (remember ‘I am the Party’?) was busy pursuing Impeachment &amp; traveling to Chinatown while @POTUS led.'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'abigailmarone'})CREATE (A)-[:RT {fecha:'2020-10-03 22:42:02', text: 'YUUUGE Trump car parade in New York to send their well wishes to the President &amp; First Lady 🇺🇸🚘
+
+Get well soon President @realDonaldTrump, we are all behind you!  https://t.co/auHLMjc3iV'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'MZHemingway'})CREATE (A)-[:RT {fecha:'2020-10-01 15:58:06', text: 'Holy crap. This is crazy to watch. I.ve noticed this for years and have commented on it publicly, but the actual words that Trump or his administration speak and their actions do not seem to have any influence at all on the narrative, the questions, the stories.'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-02 02:02:59', text: 'President @realDonaldTrump: "I.ve said it many times and let me be clear again: I condemn the KKK, I condemn all white supremacists, I condemn the Proud Boys" https://t.co/zRRT2QzcNS'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'JasonMillerinDC'})CREATE (A)-[:RT {fecha:'2020-10-02 20:46:53', text: 'Amazingly poor form being shown by Joe Biden right now.
+
+Biden opposed @realDonaldTrump’s early, life-saving actions to close U.S. from outside carriers, &amp; Biden’s Democrat Party (remember ‘I am the Party’?) was busy pursuing Impeachment &amp; traveling to Chinatown while @POTUS led.'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'TrumpStudents'})CREATE (A)-[:RT {fecha:'2020-10-04 00:31:54', text: 'Supporters showing their love for President @realDonaldTrump outside of Walter Reed! https://t.co/f714lHLjwW'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'RealAVNews'})CREATE (A)-[:RT {fecha:'2020-10-02 21:41:19', text: '"We.re going to have our President.s back because he.s had our back." @charliekirk11 
+
+Tune into #RAVNews on PlutoTV Channel 240, Dish Channel 219, Roku, Apple TV, FireTV or https://t.co/GJ94sksdr1.
+
+@DavidBrodyCBN #TheWaterCooler @realDonaldTrump https://t.co/keoEs9srAV'}]-> (B);
+MATCH (A:Usuario {nombre:'RealAVNews'}), (B:Usuario {nombre:'RealDrGina'})CREATE (A)-[:RT {fecha:'2020-10-01 17:00:40', text: 'The follow up, even more puzzling... https://t.co/XUy2Hd8Ns7'}]-> (B);
+MATCH (A:Usuario {nombre:'RealDrGina'}), (B:Usuario {nombre:'RealAVNews'})CREATE (A)-[:RT {fecha:'2020-09-30 19:17:05', text: '#NewsOn @PastorDScott says President @realDonaldTrump let @JoeBiden off the hook when he resorted to insults and told him to "shut up, man."
+
+Watch #RAVNews on PlutoTV Channel 240, Dish Channel 219, Roku, Apple TV, FireTV or https://t.co/GJ94skJOPB.
+
+#Debates2020 @mirandakhanbf https://t.co/8tCI2gi633'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'TheLeoTerrell'})CREATE (A)-[:RT {fecha:'2020-10-04 00:56:45', text: 'Mr. President: I was in San Clemente Calif. for Trump Rally and to sign Leo 2.0 Hats. They love you !  Get healthy!  I am waiting for my marching orders to campaign for you.  Listen to my Podcast "God Speed Mr. President."  I dedicated  it to you. @ApplePodcasts  @realDonaldTrump'}]-> (B);
+MATCH (A:Usuario {nombre:'JasonMillerinDC'}), (B:Usuario {nombre:'TrumpWarRoom'})CREATE (A)-[:RT {fecha:'2020-10-05 15:09:20', text: '@realDonaldTrump WATCH: Joe Biden called a Detroit auto worker "a horse.s ass" after the voter confronted him over wanting to take away Americans. Second Amendment rights. https://t.co/G7R6PJbcKv'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-10-08 14:35:45', text: '. @JoeBiden needs to use notes to answer questions. He wants a virtual debate so he can read answers written by staff.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpWarRoom'}), (B:Usuario {nombre:'SteveGuest'})CREATE (A)-[:RT {fecha:'2020-10-09 18:26:32', text: '.@realDonaldTrump just put the terrorist regime in Iran on notice.
+
+REMINDER: Obama and Biden sent Iran pallets of cash.
+
+https://t.co/kE4wuZapO9'}]-> (B);
+MATCH (A:Usuario {nombre:'RealDrGina'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-10-01 02:49:20', text: '. @JoeBiden made four personal attacks on President Trump. Then claimed Trump wasn’t Presidential. 
+
+This is the Nancy Pelosi rule of haircare.'}]-> (B);
+MATCH (A:Usuario {nombre:'RealDrGina'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-01 17:03:28', text: '.@johnrobertsFox I would refer you to your wife’s reporting from 21 hours ago... accurate reporting I cited in the White House Press Briefing.'}]-> (B);
+MATCH (A:Usuario {nombre:'SidneyPowell1'}), (B:Usuario {nombre:'RealDrGina'})CREATE (A)-[:RT {fecha:'2020-10-02 19:16:33', text: 'Compared to the last four years, Covid is nothing for you.  
+
+I had the first strain of #Covid19.  Wasn’t easy.
+
+I’ve been in the @WhiteHouse &amp; seen you in action. 
+
+#Covid is easy compared to one day in the Oval Office, @realDonaldTrump. 
+
+You’ve got this! 🇺🇸💙🇺🇸'}]-> (B);
+MATCH (A:Usuario {nombre:'RealDrGina'}), (B:Usuario {nombre:'SebGorka'})CREATE (A)-[:RT {fecha:'2020-10-04 03:46:59', text: 'So much love for President @realDonaldTrump right now outside his building at @WRBethesda. https://t.co/H4thBk6949'}]-> (B);
+MATCH (A:Usuario {nombre:'JohnBasham'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-08 12:24:31', text: 'President @realDonaldTrump on @debates: I’m not doing a virtual debate, they’re trying to protect Joe Biden https://t.co/Xx1Uhuac16'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'abigailmarone'})CREATE (A)-[:RT {fecha:'2020-10-03 02:29:27', text: 'Trump supporters gathering outside Walter Reed to wish the President a speedy recovery.
+
+America loves you President @realDonaldTrump! 🇺🇸❤️
+
+ https://t.co/VQXlZCPaeO'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'JuddPDeere45'})CREATE (A)-[:RT {fecha:'2020-10-03 17:52:22', text: 'Memorandum from President @realDonaldTrump’s physician https://t.co/QCr14X9veL'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'Alyssafarah'})CREATE (A)-[:RT {fecha:'2020-10-03 22:34:08', text: 'Thank you to everyone for their concern &amp; outpouring of support for President @realDonaldTrump. He’s as tough as they come &amp; focusing on recovering. The @WhiteHouse will continue to give regular updates on his progress.'}]-> (B);
+MATCH (A:Usuario {nombre:'abigailmarone'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-09 13:50:49', text: 'The only one who needs the 25th Amendment is Nancy Pelosi herself.
+
+“Good Morning, Sunday Morning,” she bizarrely blurts out after suggesting impeaching President @realDonaldTrump for exercising his Art. II, Sec. II power!
+
+Stop projecting, Nancy! ⬇️
+https://t.co/QXBVhKqwLd'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'RichardGrenell'})CREATE (A)-[:RT {fecha:'2020-10-06 20:02:24', text: 'I just spoke with our great President @realDonaldTrump and he is doing great!
+
+He is focused on new ideas and new policies that will help the American people over the next 4 years. He’s a true visionary leader with BIG ideas. 
+
+A total outsider who the insiders fear.'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'BrookeSingman'})CREATE (A)-[:RT {fecha:'2020-10-06 22:31:29', text: 'EXCLUSIVE @DNI_Ratcliffe declassified docs revealing CIA Director Brennan briefed @BarackObama on @HillaryClinton “plan”to tie @realDonaldTrump to #Russia as"a means of distracting the public" from her use of "private email server”ahead of 2016 election 
+https://t.co/ovVT0PAEoL'}]-> (B);
+MATCH (A:Usuario {nombre:'TrumpStudents'}), (B:Usuario {nombre:'AndrewHClark'})CREATE (A)-[:RT {fecha:'2020-10-07 18:58:27', text: 'Kamala Harris and Jane Fonda held a fundraiser together just a few weeks ago.'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'TeamTrump'})CREATE (A)-[:RT {fecha:'2020-10-02 18:14:54', text: 'White House Press Secretary @KayleighMcEnany gives an update on President @realDonaldTrump.s condition: "He is having mild symptoms but he.s feeling good. He.s in good spirits." https://t.co/bi2Lf89xKM'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'PressSec'})CREATE (A)-[:RT {fecha:'2020-10-03 06:39:02', text: 'An update from President ⁦@realDonaldTrump⁩’s physician: https://t.co/8xzB8FShkd'}]-> (B);
+MATCH (A:Usuario {nombre:'almostjingo'}), (B:Usuario {nombre:'LLinWood'})CREATE (A)-[:RT {fecha:'2020-09-30 17:25:01', text: 'Formal demand for public retraction is being prepared for Biden/Harris Campaign on behalf of Kyle Rittenhouse. 
+
+I also hereby demand that @JoeBiden immediately retract his false accusation that Kyle is a white supremacist &amp; militia member responsible for violence in Kenosha. https://t.co/GrZyE8nI7Z'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'AndrewPollackFL'})CREATE (A)-[:RT {fecha:'2020-10-03 15:13:35', text: 'President @realDonaldTrump will recover from coronavirus.
+
+He is at Walter Reed. 
+
+Not a New York @andrewcuomo nursing home.'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'ErinMPerrine'})CREATE (A)-[:RT {fecha:'2020-10-03 16:01:43', text: 'Hey guys — stop saying Biden pulled down negative ads.
+
+He didn’t. He hasn’t. Not online and not on TV.
+
+He had negative TV ads running TODAY in FL, NH, NV, and NC.'}]-> (B);
+MATCH (A:Usuario {nombre:'nedryun'}), (B:Usuario {nombre:'JackPosobiec'})CREATE (A)-[:RT {fecha:'2020-10-03 17:53:56', text: '@realDonaldTrump Dunking on Pelosi literally from Walter Reed. Historic trolling.'}]-> (B);
+MATCH (A:Usuario {nombre:'fred_guttenberg'}), (B:Usuario {nombre:'jmartNYT'})CREATE (A)-[:RT {fecha:'2020-10-02 22:04:15', text: 'NEWS: @JoeBiden is taking down his negative ads, going all-positive, per source familiar.  
+
+Decision was made *before* WH put out word Trump was going to Walter Reed'}]-> (B);
+MATCH (A:Usuario {nombre:'steelworkers'}), (B:Usuario {nombre:'edokeefe'})CREATE (A)-[:RT {fecha:'2020-10-01 12:08:55', text: 'ALL LIT UP: @ThePlainDealer fronts today with news of a @JoeBiden-@KamalaHarris downtown Cleveland light show by @steelworkers that an iconic building didn’t like. https://t.co/rGWWBkY1Wa'}]-> (B);
+MATCH (A:Usuario {nombre:'davidmweissman'}), (B:Usuario {nombre:'sfpelosi'})CREATE (A)-[:RT {fecha:'2020-09-30 15:11:23', text: 'Hunter is resting rent-free in Trump’s hateful head after overcoming addiction and the loss of his military hero brother Beau Biden. His loving father @JoeBiden will be President, America will heal, and you will lose power because you didn’t use it to help people. https://t.co/bmthCRT6uS'}]-> (B);
